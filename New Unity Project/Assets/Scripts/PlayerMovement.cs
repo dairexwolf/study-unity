@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
         // rb.AddForce(0, 500, 100);
     }
 
-    // 
+    // Да, это хреновая идея, но шо поделац
     void FixedUpdate()
     {
         if (Input.GetKey("w"))
